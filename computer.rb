@@ -6,6 +6,6 @@ class Computer
   end
 
   def choice
-    p "The computer chose #{@sign}"
+    puts "The computer chose #{@sign}"
   end
 end

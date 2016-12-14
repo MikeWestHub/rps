@@ -12,7 +12,6 @@ class Game
   def play
     @human.choose
     @computer.choose
-    binding.pry
     @human.choice
     @computer.choice
     self.winner?
@@ -23,3 +22,4 @@ class Game
     rules.compare
   end
 end
+

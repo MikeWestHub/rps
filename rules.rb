@@ -9,16 +9,16 @@ class Rules
   end
 
   def mankind
-    p "You win!!"
+    puts "You win!!"
   end
 
   def skynet
-    p "The computer wins!!"
+    puts "The computer wins!!"
   end
 
   def compare
     if tie
-      p "You tie!!"
+      puts "You tie!!"
     elsif @hum_sign == "rock"
       rock
     elsif @hum_sign == "paper"
